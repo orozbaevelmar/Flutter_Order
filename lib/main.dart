@@ -27,6 +27,8 @@ class MyApp extends StatelessWidget {
               Text('14th commit'),
               Text('15th commit'),
               Text('16th commit'),
+              Text('17th commit'),
+              Text('18th commit'),
             ]),
           ),
         ),
