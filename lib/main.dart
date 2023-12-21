@@ -13,36 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        //changed
-        appBar: AppBar(
-          actions: [
-            Icon(Icons.abc),
-            Container(
-              color: Colors.red,
-            )
-          ],
-        ),
         body: SafeArea(
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                //color: Colors.amber,
-                child: ListView.builder(
-                  shrinkWrap: true,
-                  itemCount: 10,
-                  itemBuilder: (BuildContext context, int index) => Container(
-                    child: Container(
-                      margin: EdgeInsets.all(20),
-                      height: 200,
-                      width: 400,
-                      child: Image.asset('assets/images/'),
-                    ),
-                  ),
-                ),
-              ),
-            ),
+            child: Column(children: [
+              Text('7th commit'),
+              Text('8th commit'),
+              Text('9th commit'),
+            ]),
           ),
         ),
       ),
