@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
             child: Column(children: [
               Text('7th commit'),
               Text('8th commit / I\'ll create another branch in below'),
+              Text('test commit 1 / In master branch'),
+              Text('test commit 1 / In master branch'),
             ]),
           ),
         ),
