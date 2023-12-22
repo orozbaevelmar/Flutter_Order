@@ -16,10 +16,7 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
-            child: Column(children: [
-              Text('7th commit'),
-              Text('8th commit'),
-            ]),
+            child: Column(children: []),
           ),
         ),
       ),
