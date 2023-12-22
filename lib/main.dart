@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
               Text('test commit 1 / In master branch'),
               Text('test commit 2 / In master branch'),
               Text('test commit 2 / In master branch'),
+              Text('test commit 3/ In master branch'),
+              Text('test commit 3 / In master branch'),
             ]),
           ),
         ),
