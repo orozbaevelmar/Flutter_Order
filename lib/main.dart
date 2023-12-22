@@ -13,6 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(actions: [
+          Row(
+            children: [
+              Icon(Icons.search),
+              Icon(Icons.holiday_village),
+            ],
+          )
+        ]),
         body: SafeArea(
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
