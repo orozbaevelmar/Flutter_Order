@@ -19,8 +19,6 @@ class MyApp extends StatelessWidget {
             child: Column(children: [
               Text('7th commit'),
               Text('8th commit'),
-              Text('9th commit'),
-              Text('10th commit'),
             ]),
           ),
         ),
